@@ -42,7 +42,7 @@ public class Cycle1 {
         for (int month=1; month <= 12; month++ ) {
             total = total + total / 100;
             total = total + sum2;
-            System.out.println("Месяц " + month + ", сумма накоплений равна  " + total);
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + total);
         }
     }
 }
